@@ -1,0 +1,52 @@
+.intro-Continer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+.intro-Continer img{
+    width: 30%;
+    height: 30%;
+    border-radius: 50%;
+    padding: 10px 15px;
+}
+
+.intro-Continer .btn{
+    margin-top: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.intro-Continer .btn a{
+    font-size: 1.2rem;
+    padding: 10px 15px;
+    border: 2px solid transparent;
+    text-transform: uppercase;
+    font-weight: bold;
+    color: white;
+    margin-left: 20px;
+}
+
+.intro-Continer .btn .btn1{
+    background-color: #1cb87e;
+}
+
+.intro-Continer .btn .btn2{
+    border-color: #1cb87e;
+    border-radius: 5px;
+}
+
+.intro-Continer .btn .btn1:hover{
+    background-color: transparent;
+    border-color: #1cb87e;
+    transition: .5s all ease;
+}
+
+.intro-Continer .btn .btn2:hover{
+    border-color: #111;
+    transition: .5s all ease-in-out;
+}

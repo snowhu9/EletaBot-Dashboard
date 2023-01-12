@@ -1,0 +1,77 @@
+.continer{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    background-color: #333;
+    height: 40px;
+}
+
+.continer .title{
+    width: 15%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+.continer .title .title-logo{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+}
+
+.continer .list{
+    width: 70%;
+    margin-left: 10px;
+}
+
+.continer .title h1{
+    text-transform: uppercase;
+    font-size: 1.5rem;
+    padding: 15px 10px;
+    color: #1cb87e;
+}
+
+
+.continer .list a{
+    padding: 5px 15px;
+    font-size: 1.2rem;
+    color: white;
+    text-transform: uppercase;
+    font-weight: bold;
+    border-bottom: 2px solid transparent;
+    width: fit-content;
+}
+
+.continer .list a:hover{
+    color: #1cb87e;
+    border-color: #1cb87e;
+    transition: .5s all ease;
+}
+
+.continer .more select{
+    background-color: #333;
+    color: white;
+    padding: 10px 0px;
+    margin: 0px 15px;
+    font-weight: bold;
+    border: none;
+    text-align: center;
+    outline: none;
+    cursor: pointer;
+}
+
+.continer .more a{
+    color: white;
+    background-color: #1cb87e;
+    padding: 8px 15px;
+    text-transform: uppercase;
+    font-weight: bold;
+    border: 2px solid #1cb87e;
+}
+
+.continer .more a:hover{
+    background-color: transparent;
+    transition: .5s all ease;
+}
